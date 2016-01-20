@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search_white_48dp"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_viewtoggle"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_view_list_white_48dp"
+        android:title="List View"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings1"
+        android:orderInCategory="100"
+        android:title="Filter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="Sort"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings4"
+        android:orderInCategory="100"
+        android:title="Select all"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/action_settings5"
+    android:orderInCategory="100"
+    android:title="Details"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="never" />
+</menu>

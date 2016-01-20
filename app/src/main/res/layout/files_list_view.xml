@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="#e7e7e7">
+    <LinearLayout
+        android:id="@+id/clickHolder"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+        <ImageView
+            android:id="@+id/fileicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            />
+        <LinearLayout
+            android:id="@+id/filetextholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:text="Folder name"
+                android:textColor="#5e5b5b"/>
+            <TextView
+                android:id="@+id/modifiedTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:paddingTop="5dp"
+                android:color="#c2bcbc"
+                android:textStyle="normal"
+                android:text="10 Oct 2014 | 5 items"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/infoIconHolder"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_weight="0.1">
+        <ImageView
+            android:id="@+id/infoicon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

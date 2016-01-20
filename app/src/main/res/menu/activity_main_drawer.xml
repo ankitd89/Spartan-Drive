@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_cloud_black_48dp"
+            android:title="My Drive"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_subdirectory_arrow_right_black_48dp"
+            android:title="Shared with me" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_subdirectory_arrow_left_black_48dp"
+            android:title="Shared with others" />
+        <item
+            android:id="@+id/nav_pictures"
+            android:icon="@drawable/ic_camera_alt_black_48dp"
+            android:title="Pictures" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_audiotrack_black_48dp"
+            android:title="Music" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_grade_black_48dp"
+            android:title="Favourites" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_36dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_usagereport"
+            android:icon="@drawable/ic_assessment_black_48dp"
+            android:title="Usage Report" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_power_settings_new_black_48dp"
+            android:title="Sign Out" />
+    </group>
+</menu>
